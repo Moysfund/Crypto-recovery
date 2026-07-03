@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Crypto Recovery - Trusted Asset Recovery Service',
-  description: 'Professional crypto recovery service with 200+ 5-star reviews. Recover your stolen cryptocurrency with our expert team.',
+  description: 'Professional crypto recovery service with 200+ 5-star reviews.',
 }
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   )
